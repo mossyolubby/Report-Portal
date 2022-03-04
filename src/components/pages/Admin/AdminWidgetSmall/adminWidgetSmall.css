@@ -1,0 +1,83 @@
+.widgetSm{
+    flex:1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75); 
+box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+padding:20px;
+margin-right: 20px;
+}
+
+.widgetSmTitle{
+    font-size:20px;
+    font-weight:600px;
+    justify-content: center;
+}
+
+.widgetSmList{
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: flex;
+    background-color: brown;
+}
+
+.WidgetSmItems{
+    list-style: none;
+    margin-top:30px;
+
+}
+
+.widgetSmSuccess{
+    margin-right:10px;
+    /* background-color: blueviolet; */
+    padding:20px;
+    font-size: 20px;
+}
+
+.widgetSmSucessCount{
+    margin-left: 10px;
+    background-color: rgb(208, 247, 240);
+    /* width:50%; */
+    color:rgb(10, 204, 168);
+    font-weight: 600;
+    padding:20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75); 
+box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+
+}
+
+.widgetSmPending{
+    margin-right:10px;
+    padding:20px;
+    font-size: 20px;
+}
+
+.widgetPendingCount{
+    margin-left: 30px;
+    background-color: rgb(242, 247, 217);
+    /* width:50%; */
+    color:rgb(243, 208, 8);
+    font-weight: 600;
+    padding:20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75); 
+box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+
+.widgetSmFailed{
+    margin-right:10px;
+    padding:20px;
+    font-size: 20px;
+}
+
+.widgetSmFailedCount{
+    margin-left: 50px;
+    background-color: rgb(247, 201, 193);
+    /* width:50%; */
+    color:rgb(240, 42, 8);
+    font-weight: 600;
+    padding:20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75); 
+box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}

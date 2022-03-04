@@ -1,0 +1,78 @@
+.bodyProvider{
+    flex:4;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75); 
+box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+padding:20px;
+
+}
+
+.Clientheader{
+    padding: 0px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
+
+
+    /* justify-content: space-around; */
+    
+}
+.headerline{
+    margin-top:20px;
+    height: 1px;
+        background-color: #ccc;
+        border: none;
+}
+.headertitle{
+    color:rgb(78, 76, 76);
+}
+
+.create{
+    display: flex;
+    color:aliceblue;
+    background-color: rgb(5, 110, 230);
+    border-radius: 5px;
+    padding:5px;
+   
+}
+
+#tableheader{
+    background-color: rgb(92, 91, 91);
+}
+
+.Table{
+    border-spacing:20px;
+    font-size: 14px;
+}
+
+.providerTable{
+    margin: auto;
+}
+
+.providertn2{
+    text-align: center;
+}
+
+.providername2{
+    text-align: center;
+}
+.provideredit2, .providerdelete2{
+    text-align: center;
+}
+
+.editbtn{
+    background-color: rgb(228, 154, 17);
+    border-radius: 3px;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight: 600;
+}
+
+.deletebtn{
+    background-color: rgb(233, 71, 71);
+    border-radius: 3px;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight: 500;
+    color: aliceblue;
+}

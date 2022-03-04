@@ -1,0 +1,48 @@
+.reportContainer{
+    flex:4;
+}
+
+.report{
+    margin:0;
+    text-align: center;
+    margin-top: 30px;
+    
+
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75); 
+box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    
+}
+
+label{
+    margin-right:40px;
+
+}
+
+.labelTo{
+    margin-left:20px;
+}
+
+.inputTO{
+    margin-left:20px;
+}
+.labelStatus{
+    margin-left:20px;
+}
+
+.download{
+    margin-bottom:10px;
+    padding:20px;
+    
+}
+
+.btnDownload{
+    margin:auto;
+    text-align:center;
+    display: flex;
+    margin-top: 30px;
+    width:200px;
+    padding:5px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600px;
+}

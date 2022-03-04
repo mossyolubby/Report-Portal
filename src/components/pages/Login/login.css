@@ -1,0 +1,95 @@
+.loginContainer{
+    flex:4;
+}
+
+@media all and (min-width: 480px) {
+    
+    .loginContainer{
+        flex:4;
+    }
+    .Login h3{
+        text-align: center;
+        margin:0;
+        line-height:1;
+        padding-bottom:20px;
+
+    }
+    .Login {
+      display:flex;
+      justify-content:center;
+      flex-direction: column;
+      text-align: left;
+     
+    }
+
+    .form{
+        background-color:aliceblue;
+        width:450px;
+        margin:auto;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+        padding:40px 55px 45px 55px;
+        border-radius: 15px;
+        transition: all .3s;
+        -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75); 
+box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+        
+    }
+    .label{
+        margin:auto;
+        margin-right:15px;
+    }
+
+    .form-control{
+        margin:auto;
+        margin-bottom:10px;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+        padding:10px;
+        border-radius: 5px;
+        transition: all .3s;
+        width:250px;
+        margin-left:15px;
+        margin-top: 15px;
+    }
+  
+    .form-control:focus{
+        border-color: #167b77;
+    }
+
+    .custom-control-label{
+        font-weight:400;
+    }
+
+    .forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+  }
+
+  .custom-control{
+    text-align: center;
+    margin:0;
+    line-height:1;
+    padding-top:20px;
+
+  }
+
+.btnform{
+    background-color: #167bff;
+    margin:auto;
+    text-align:center;
+    display: flex;
+    margin-top: 20px;
+    width:250px;
+    padding:5px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600px;
+}
